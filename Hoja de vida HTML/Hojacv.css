@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap');
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+border: none;
+outline: none;
+}
+
+body {
+    background-color: #0A192F;
+ 
+}
+.imagen1{
+position: absolute;
+width: 150px;
+height: 102.38px;
+left: 483px;
+top: 282px;
+background: url(image.png);
+mix-blend-mode: normal;
+border-radius: 20px;
+}
+
+.imagen2{
+position: absolute;
+width: 150px;
+height: 115.71px;
+left: 483px;
+top: 427px;
+background: url(image.png);
+border-radius: 20px;
+}
+
+.titulo{
+    position: absolute;
+    width: 237px;
+    height: 56px;
+    left: 80px;
+    top: 24px;
+    color: white;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 56px;
+
+  }
+  
+.subtitulo {
+    position: absolute;
+    width: 394px;
+    height: 42px;
+    left: 80px;
+    top: 106px;
+    
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 42px;
+    color: white;
+}
+
+.parrafo1{
+    position: absolute;
+    width: 384px;
+    height: 455px;
+    left: 80px;
+    top: 207px;
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.cuadrado1{
+    position: absolute;
+    width: 643px;
+    height: 554px;
+    right: 683px;
+    top: 174px;
+    background: #CACACA;
+    mix-blend-mode: normal;
+    border-radius: 20px;
+}
+
+.cuadrado2{
+    position: absolute;
+    width: 611px;
+    height: 486px;
+    left: 715px;
+    top: 242px;
+
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+
+.guiones1{
+position: absolute;
+width: 374px;
+height: 402px;
+left: 90px;
+top: 272px;
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 35px;
+
+color: #000000;
+
+}
+
+.titsquare2{
+    position: absolute;
+width: 542px;
+height: 61px;
+left: 749px;
+top: 274px;
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+color: #000000;
+}
+
+.guiones2{
+    position: absolute;
+width: 542px;
+height: 318px;
+left: 749px;
+top: 356px;
+
+font-family: Roboto Condensed;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 33px;
+
+color: #000000;
+}
