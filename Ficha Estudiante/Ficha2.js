@@ -35,7 +35,9 @@ function traerdatos(){
     
           </div>
 
-          <div class="fotografia"></div>
+          <div class="fotografia">
+          <img src="https://sebasmb.neocities.org/sebas.jpeg">
+          </div>
         </div>
 
         <div class="actividades-ficha">
