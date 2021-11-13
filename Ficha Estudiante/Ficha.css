@@ -67,6 +67,16 @@
 
 .fotografia {
   grid-area: fotografia;
+
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  padding: 10px;
+  border-radius: 100px;
+  padding-top: 50px;
+ 
 }
 
 .actividades-ficha {
