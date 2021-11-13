@@ -1,0 +1,336 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+
+.ficha {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "encabezado-ficha"
+    "actividades-ficha"
+    "estados-ficha";
+  /* width: 400px;
+  height: 1080px; */
+}
+
+.encabezado-ficha {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "nombre-estudiante nombre-estudiante fotografia"
+    "enlaces enlaces fotografia";
+  grid-area: encabezado-ficha;
+
+  background-color: #55828B;
+  border-radius: 60px;
+  font-size: 30px;
+  margin: 10px;
+  padding: 10px;
+  height: 500px;
+}
+
+.nombre-estudiante {
+  grid-area: nombre-estudiante;
+  font-size: 30px;
+  color: white;
+  font: bold;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px;
+}
+
+.enlaces {
+  grid-area: enlaces;
+
+  background-color: #3B6064;
+  border-radius: 60px;
+  padding: 20px;
+  margin: 10px;
+  height: 240px;
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 40px;
+}
+
+.enlaces a i{
+  font-size: 20px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.fotografia {
+  grid-area: fotografia;
+}
+
+.actividades-ficha {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "titulo-actividades"
+    "encabezado-actividades"
+    "estado-actividades";
+  grid-area: actividades-ficha;
+
+  background-color: #55828B;
+  border-radius: 60px;
+  padding: 30px;
+  margin: 10px;
+}
+
+.titulo-actividades {
+  grid-area: titulo-actividades;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.encabezado-actividades {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "item nombre estadouiux estadodev";
+  grid-area: encabezado-actividades;
+  font-size: 30px;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.item {
+  grid-area: item;
+}
+
+.nombre {
+  grid-area: nombre;
+}
+
+.estadouiux {
+  grid-area: estadouiux;
+}
+
+.estadodev {
+  grid-area: estadodev;
+}
+
+.estado-actividades {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "nro enlace porcentajeuiux porcentajedev";
+  grid-area: estado-actividades;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nro {
+  grid-area: nro;
+}
+
+.enlace {
+  grid-area: enlace;
+  
+}
+
+.enlace a i{
+  color: white;
+  
+}
+
+.porcentajeuiux {
+  grid-area: porcentajeuiux;
+}
+
+.porcentajedev {
+  grid-area: porcentajedev;
+}
+
+.estados-ficha {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas: "estadohtml estadocss estadojs estadoui estadoux total";
+  grid-area: estados-ficha;
+
+  background-color: #55828B;
+  border-radius: 60px;
+  margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ 
+}
+
+.estadohtml {
+  grid-area: estadohtml;
+  border-radius: 1000px;
+  background-color: #87BBA2;
+  margin: 10px;
+  padding: 20px;
+  font-family: 'Ubuntu', sans-serif;  
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  display: flex;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+.estadocss {
+  grid-area: estadocss;
+  border-radius: 1000px;
+  background-color: #87BBA2;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+.estadojs {
+  grid-area: estadojs;
+  border-radius: 1000px;
+  background-color: #87BBA2;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+.estadoui {
+  grid-area: estadoui;
+  border-radius: 1000px;
+  background-color: #87BBA2;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+
+
+}
+
+.estadoux {
+  grid-area: estadoux;
+  border-radius: 1000px;
+  background-color: #87BBA2;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+
+}
+
+.total {
+  grid-area: total;
+  border-radius: 1000px;
+  background-color: #87BBA2;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+
+  font-size: 50px;
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+
+  }
+
+body {
+  background-color: #364958;
+  /* width: 800px;
+  height: 780px; */
+}
+
+
+.btn {
+  border: 10px;
+  border-radius: 60px;
+  width: 300px;
+  height: 100px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #55828B;
+  color: white;
+  margin: 10px;
+}
+
+.btn:hover{
+  background-color: #87BBA2;
+  font-weight: bold;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+}
