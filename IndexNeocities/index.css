@@ -1,0 +1,182 @@
+body{
+background-color: #0A192F;
+}
+
+a {
+  color: white;
+  text-decoration:none;
+  color: black;
+  }
+.titulo{
+position: absolute;
+width: 1208px;
+height: 37px;
+left: 76px;
+top: 34px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 56px;
+color: #64FFDA;
+}
+
+.carpet1{
+    position: absolute;
+    width: 266px;
+    height: 177px;
+    left: 75px;
+    top: 159px;
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+
+.carpet2{
+    position: absolute;
+    width: 266px;
+    height: 177px;
+    left: 547px;
+    top: 159px;
+    
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+
+.carpet3{
+    position: absolute;
+    width: 266px;
+    height: 220px;
+    left: 76px;
+    top: 424px;
+    
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+
+.carpet4{
+    position: absolute;
+    width: 266px;
+    height: 220px;
+    left: 547px;
+    top: 424px;
+    background: #C4C4C4;
+    border-radius: 20px;
+}
+
+.square1{
+position: absolute;
+width: 158px;
+height: 57px;
+left: 206px;
+top: 144px;
+
+background: #0A192F;
+border-radius: 10px;
+}
+
+.square2{
+    position: absolute;
+    width: 158px;
+    height: 57px;
+    left: 678px;
+    top: 144px;
+    
+    background: #0A192F;
+    border-radius: 10px;
+}
+
+.square3{
+    position: absolute;
+    width: 158px;
+    height: 57px;
+    left: 206px;
+    top: 409px;
+    
+    background: #0A192F;
+    border-radius: 10px;
+}
+
+.square4{
+position: absolute;
+width: 158px;
+height: 57px;
+left: 678px;
+top: 409px;
+
+background: #0A192F;
+border-radius: 10px;
+}
+
+.text1{
+    position: absolute;
+    width: 231px;
+    height: 72px;
+    left: 93px;
+    top: 255px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    color: black;
+}
+
+.text2{
+    position: absolute;
+    width: 231px;
+    height: 72px;
+    left: 565px;
+    top: 255px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 33px;
+    
+    color: #64FFDA;
+}
+
+.text3{
+    position: absolute;
+width: 231px;
+height: 72px;
+left: 93px;
+top: 539px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 33px;
+
+color: #64FFDA;
+}
+
+.text4{
+    position: absolute;
+width: 231px;
+height: 72px;
+left: 563px;
+top: 539px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 33px;
+
+color: #64FFDA;
+}
+
+.logo{
+    position: absolute;
+width: 365px;
+height: 358px;
+left: 919px;
+top: 201px;
+
+background: url(9d89121c6a4749549ed5fbaf96273e51.png);
+
+}
